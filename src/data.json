@@ -1,0 +1,78 @@
+{
+    "menu": {
+        "menu_item_change_color": "change color",
+        "menu_item_About": "About",
+        "menu_item_Portfolio": "Skills"
+    },
+    "initTheme": 0,
+    "theme": [
+        {"back": "background-color: #607a80; color: #b31616;"},
+        {"back": "background-color: #cfa912; color: #0e6d14;"},
+        {"back": "background-color: #10742d; color: blue;"},
+        {"back": "background-color: #dd9503; color: #0e6d14;"},
+        {"back": "background-color: #271616; color: red;"}
+    ],
+    "title": "Hello, Im Dinesh",
+    "subtitle": "Full Stack Dev | Open-Source Enthusiast | Blogger | Ninja",
+    "links": {
+        "github": "https://github.com/flexdinesh",
+        "twitter": "https://twitter.com/flexdinesh",
+        "stackoverflow": "https://stackoverflow.com/story/flexdinesh",
+        "linkedin": "https://www.linkedin.com/in/dineshpandiyan",
+        "medium": "https://medium.com/@flexdinesh",
+        "dev": "https://dev.to/flexdinesh"
+    },
+    "section": [
+        {
+            "title": "About",
+            "items": [
+                {
+                    "type": "p",
+                    "content": ["I like JavaScript and everything web.",
+                     "When my dev senses kick-in I build presumably awesome stuff.",
+                     "I stay close to the community and try to keep tabs with the pace at which the web is evolving.",
+                     "I also like to blog what I learn.",
+                     "React-Redux, Node.js, Ruby on Rails, Java, Spring Boot, Docker and AWS are the main tricks up my sleeve.",
+                     "I am also obsessed with making the web look pretty with SASS/CSS."
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Skills",
+            "items": [
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/React_logo.png",
+                        "title": "React"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/Javascript_logo.png",
+                        "title": "JavaScript"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/html_logo.png",
+                        "title": "HTML"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/css.png",
+                        "title": "CSS"
+                    }
+                }
+            ]
+        }
+    ],
+    "icon": {
+        "down": "images/down.png"
+    }
+}
